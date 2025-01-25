@@ -1,0 +1,59 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    background-color:rgb(19, 179, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 115vh;
+    margin: 0; 
+}
+
+.form-container {
+    background-color: rgb(110, 59, 42);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width:800px;
+    max-width: 600px;
+}
+.form-container h1 {
+    text-align:center;
+    color:burlywood;
+}
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color:black;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+    font-size:medium;
+}
+
+.form-container textarea {
+    resize: none;
+    height: 2%;
+}
+
+.form-container button {
+    width: 50%;
+    padding: 5px;
+    background-color:darkolivegreen;
+    color:darksalmon;
+    border: none;
+    border-radius: 20px;
+    font-size:medium;
+    cursor:pointer;
+}
+
+    .form-container {
+        background-color:cyan
+    }
